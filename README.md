@@ -1,6 +1,6 @@
 # Kriging Convolutional Networks(KCN)
 
-###Overview
+### Overview
 
 This repo contains the implementation of Kriging Convolutional Networks algorithm:
 
@@ -41,9 +41,9 @@ There are three models you can choose: kcn, kcn_att, and kcn_sage.
 
 
 
-###Run the code
+### Run the code
 
 Please refer to the `experiment.py` file for details.
 
-####Acknowledge
+#### Acknowledge
 For the kcn and kcn-att, we leverage the code from Thomas N. Kipf (https://github.com/tkipf/gcn). For the implementation of kcn-sage, we take advantage of `spektral` graph neural network package (https://github.com/danielegrattarola/spektral). We thanks these authors to make their code publicly available.

@@ -188,7 +188,7 @@ def run_kcn(use_attention):
 
     # Testing
     num_test = y.shape[0] - Ntrain
-    test_ind = range(num_test)
+    test_ind = range(Ntrain, Ntrain + num_test)
     test_error, test_variance, test_duration = evaluate(features, nbs, y, test_ind, placeholders)
     print("Test set results:",
           "mse=", "{:.5f}".format(test_error), "time=", "{:.5f}".format(test_duration))
